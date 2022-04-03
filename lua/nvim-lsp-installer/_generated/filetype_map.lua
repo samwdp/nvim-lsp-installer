@@ -54,6 +54,7 @@ return {
   haxe = { "haxe_language_server" },
   hbs = { "tailwindcss" },
   heex = { "tailwindcss" },
+  hoon = { "hoon_ls" },
   html = { "angularls", "emmet_ls", "html", "tailwindcss" },
   ["html-eex"] = { "tailwindcss" },
   htmldjango = { "tailwindcss" },
