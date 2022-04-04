@@ -169,6 +169,9 @@ return {
   ltex = {
     filetypes = { "bib", "gitcommit", "markdown", "org", "plaintex", "rst", "rnoweb", "tex" }
   },
+  mm0_ls = {
+    filetypes = { "metamath-zero" }
+  },
   nickel_ls = {
     filetypes = { "ncl", "nickel" }
   },
@@ -270,6 +273,9 @@ return {
   },
   sourcekit = {
     filetypes = { "swift", "c", "cpp", "objective-c", "objective-cpp" }
+  },
+  sourcery = {
+    filetypes = { "python" }
   },
   spectral = {
     filetypes = { "yaml", "json", "yml" }

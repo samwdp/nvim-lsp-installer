@@ -218,6 +218,7 @@ lsp_installer.settings({
 | Markdown                            | `remark_ls`                |
 | Markdown                            | `zeta_note`                |
 | Markdown                            | `zk`                       |
+| Metamath Zero                       | `mm0_ls`                   |
 | Nickel                              | `nickel_ls`                |
 | Nim                                 | `nimls`                    |
 | OCaml                               | `ocamlls`                  |
@@ -236,6 +237,7 @@ lsp_installer.settings({
 | PureScript                          | `purescriptls`             |
 | Python                              | `jedi_language_server`     |
 | Python                              | `pyright`                  |
+| Python                              | `sourcery`                 |
 | Python [(docs)][pylsp]              | `pylsp`                    |
 | R                                   | `r_language_server`        |
 | ReScript                            | `rescriptls`               |
