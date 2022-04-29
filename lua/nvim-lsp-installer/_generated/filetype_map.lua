@@ -95,6 +95,7 @@ return {
   ["ocaml.interface"] = { "ocamllsp" },
   ["ocaml.menhir"] = { "ocamllsp" },
   ["ocaml.ocamllex"] = { "ocamllsp" },
+  odin = { "ols" },
   opencl = { "opencl_ls" },
   org = { "ltex" },
   os = { "bsl_ls" },
