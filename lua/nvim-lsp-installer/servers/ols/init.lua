@@ -49,7 +49,12 @@ local my_server = server.Server:new {
                 coalesce("git clone --depth 1 https://github.com/DanielGavin/ols.git . && build.bat")
             )
         )
+        when( platform.is_win,
         shell.cmd(command)
+        )
+        when( platform.is_linux,
+        shell.bash(command))
+    end
     default_options = {
         cmd = { path.concat { root_dir, "ols" },},
     },
