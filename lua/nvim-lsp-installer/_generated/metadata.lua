@@ -178,9 +178,6 @@ return {
   nimls = {
     filetypes = { "nim" }
   },
-  ols = {
-    filetypes = { "odin" }
-  },
   ocamlls = {
     filetypes = { "ocaml", "reason" }
   },

@@ -91,6 +91,7 @@ local CORE_SERVERS = Data.set_of {
     "mm0_ls",
     "nickel_ls",
     "nimls",
+    "ols",
     "ocamlls",
     "ocamllsp",
     "omnisharp",
